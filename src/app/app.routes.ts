@@ -3,7 +3,8 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { SearchProductComponent } from './search-product/search-product.component';
 
 export const routes: Routes = [
-  // { path: '', redirectTo: 'search', pathMatch: 'full' },
+
   { path: 'search', component: SearchProductComponent },
   { path: 'list', component: ProductListComponent }
+  
 ];
